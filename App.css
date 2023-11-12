@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("https://i.ibb.co/SJ3hMCt/istockphoto-472331743-612x612.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+button {
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #75aadb;
+  color: white;
+  border: 2px solid #0c2340;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+  background-color: #0c2340;
+  color: #75aadb;
+  border-color: #0c2340;
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 10px;
+}
